@@ -1,0 +1,87 @@
+PODS:
+  - Alamofire (4.9.1)
+  - DZNEmptyDataSet (1.8.1)
+  - ESTabBarController-swift (2.6.5)
+  - FDFullscreenPopGesture (1.1)
+  - HandyJSON (5.0.1)
+  - HMSegmentedControl (1.5.5)
+  - IQKeyboardManagerSwift (6.0.5)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.3.1)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Moya/RxSwift (13.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - pop (1.0.12)
+  - Result (4.1.0)
+  - Reusable (4.0.5):
+    - Reusable/Storyboard (= 4.0.5)
+    - Reusable/View (= 4.0.5)
+  - Reusable/Storyboard (4.0.5)
+  - Reusable/View (4.0.5)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.5.0)
+  - SnapKit (4.0.1)
+
+DEPENDENCIES:
+  - DZNEmptyDataSet (~> 1.8.1)
+  - ESTabBarController-swift (~> 2.6.2)
+  - FDFullscreenPopGesture (~> 1.1)
+  - HandyJSON (~> 5.0.1)
+  - HMSegmentedControl (~> 1.5.5)
+  - IQKeyboardManagerSwift (~> 6.0.4)
+  - MBProgressHUD (~> 1.0)
+  - MJRefresh (~> 3.3.1)
+  - Moya (~> 13.0.1)
+  - Moya/RxSwift
+  - pop (~> 1.0.12)
+  - Reusable (~> 4.0.2)
+  - RxCocoa
+  - RxSwift
+  - SnapKit (~> 4.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - DZNEmptyDataSet
+    - ESTabBarController-swift
+    - FDFullscreenPopGesture
+    - HandyJSON
+    - HMSegmentedControl
+    - IQKeyboardManagerSwift
+    - MBProgressHUD
+    - MJRefresh
+    - Moya
+    - pop
+    - Result
+    - Reusable
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  ESTabBarController-swift: f31cd3e30bde23619d3b300266f27864d96ffb58
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
+  HMSegmentedControl: f514c6dad47aa3065e0ed2e8046b73efc71221b9
+  IQKeyboardManagerSwift: c14eca30f6001457d6ddf25e313f23fb6578c41c
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  Reusable: 188be1a54ac0691bc66e5bb24ec6eb91971b315b
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+
+PODFILE CHECKSUM: dfc829f64969ca31095caca64ac9734e3675a051
+
+COCOAPODS: 1.5.3

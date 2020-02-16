@@ -1,0 +1,23 @@
+platform :ios, '10.0'
+use_frameworks!
+
+target 'SwiftCrazyFrameWork' do
+pod 'Moya', '~> 13.0.1'
+pod 'Moya/RxSwift'
+pod 'RxSwift'
+pod 'RxCocoa'
+pod 'HandyJSON', '~> 5.0.1'
+pod 'Reusable', '~> 4.0.2'
+pod 'ESTabBarController-swift', '~> 2.6.2'
+pod 'pop', '~> 1.0.12'
+pod 'SnapKit', '~> 4.0.0'
+pod 'IQKeyboardManagerSwift', '~> 6.0.4'
+
+
+#Objective-C
+pod 'MJRefresh', '~> 3.3.1'
+pod 'MBProgressHUD', '~> 1.0'
+pod 'DZNEmptyDataSet', '~> 1.8.1'
+pod 'FDFullscreenPopGesture', '~> 1.1'
+pod 'HMSegmentedControl', '~> 1.5.5'
+end

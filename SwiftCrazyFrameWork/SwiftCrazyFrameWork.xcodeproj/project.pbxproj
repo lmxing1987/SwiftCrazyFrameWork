@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		421535BD23F13D3500AA4077 /* SwiftCrazyFrameWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 421535BB23F13D3500AA4077 /* SwiftCrazyFrameWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		421535CD23F13D7100AA4077 /* CFACMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421535C523F13D7100AA4077 /* CFACMacros.swift */; };
+		421535CF23F1475200AA4077 /* CFUIMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421535CE23F1475200AA4077 /* CFUIMacros.swift */; };
+		4218830623F25B2400D31A20 /* CFUIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4218830523F25B2400D31A20 /* CFUIColor+Extension.swift */; };
+		4218830823F25D3100D31A20 /* CFDateFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4218830723F25D3100D31A20 /* CFDateFormatter+Extension.swift */; };
+		4218830A23F25DA300D31A20 /* CFString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4218830923F25DA300D31A20 /* CFString+Extension.swift */; };
+		4218830C23F264E600D31A20 /* CFArray+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4218830B23F264E600D31A20 /* CFArray+Extension.swift */; };
+		4218830E23F2792400D31A20 /* CFUIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4218830D23F2792400D31A20 /* CFUIImage+Extension.swift */; };
+		4218831023F2816100D31A20 /* CFUIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4218830F23F2816100D31A20 /* CFUIBarButtonItem+Extension.swift */; };
+		4218831223F281D600D31A20 /* CFUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4218831123F281D600D31A20 /* CFUIView+Extension.swift */; };
+		4218831423F2852600D31A20 /* CFBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4218831323F2852600D31A20 /* CFBaseView.swift */; };
+		4218831623F285DF00D31A20 /* CFBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4218831523F285DF00D31A20 /* CFBaseTableViewCell.swift */; };
+		4218831823F288C900D31A20 /* CFBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4218831723F288C900D31A20 /* CFBaseCollectionViewCell.swift */; };
+		4218831A23F2891600D31A20 /* CFBaseCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4218831923F2891600D31A20 /* CFBaseCollectionReusableView.swift */; };
+		4218831C23F2897F00D31A20 /* CFBaseTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4218831B23F2897F00D31A20 /* CFBaseTableViewHeaderFooterView.swift */; };
+		4218831E23F28B9A00D31A20 /* CFBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4218831D23F28B9A00D31A20 /* CFBaseViewController.swift */; };
+		4218832023F2903B00D31A20 /* CFRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4218831F23F2903B00D31A20 /* CFRefresh.swift */; };
+		4218832323F299DC00D31A20 /* CFTabBarItemContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4218832223F299DC00D31A20 /* CFTabBarItemContentView.swift */; };
+		4218832523F29A2100D31A20 /* CFTabBarItemBouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4218832423F29A2100D31A20 /* CFTabBarItemBouncesContentView.swift */; };
+		4218832723F29C8300D31A20 /* CFTabBarItemIrregularityContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4218832623F29C8300D31A20 /* CFTabBarItemIrregularityContentView.swift */; };
+		4218832923F29F2D00D31A20 /* CFCollectionViewAlignedFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4218832823F29F2D00D31A20 /* CFCollectionViewAlignedFlowLayout.swift */; };
+		4218832B23F29F9700D31A20 /* CFNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4218832A23F29F9700D31A20 /* CFNavigationBarView.swift */; };
+		4218832D23F2A37F00D31A20 /* CFUIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4218832C23F2A37F00D31A20 /* CFUIViewController+Extension.swift */; };
+		4221B29123F3AB6400315BDF /* CFNoticeBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4221B29023F3AB6400315BDF /* CFNoticeBarView.swift */; };
+		4221B29323F3AEDF00315BDF /* CFBaseNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4221B29223F3AEDF00315BDF /* CFBaseNavViewController.swift */; };
+		4221B29523F3B0C000315BDF /* CFBaseOriginalNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4221B29423F3B0C000315BDF /* CFBaseOriginalNavViewController.swift */; };
+		4221B29723F3B2D300315BDF /* CFPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4221B29623F3B2D300315BDF /* CFPageViewController.swift */; };
+		4221B29923F3B4ED00315BDF /* CFBaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4221B29823F3B4ED00315BDF /* CFBaseTabBarViewController.swift */; };
+		4221B29B23F3BCF200315BDF /* CFBaseWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4221B29A23F3BCF200315BDF /* CFBaseWebViewController.swift */; };
+		4221B29F23F3C37400315BDF /* CFBaseAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4221B29E23F3C37400315BDF /* CFBaseAppDelegate.swift */; };
+		4221B2A123F3C5B800315BDF /* CFEntityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4221B2A023F3C5B800315BDF /* CFEntityModel.swift */; };
+		4221B2A323F3C6EF00315BDF /* CFViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4221B2A223F3C6EF00315BDF /* CFViewModel.swift */; };
+		4221B2A523F3D2CD00315BDF /* CFRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4221B2A423F3D2CD00315BDF /* CFRequest.swift */; };
+		4221B2A723F3DBB100315BDF /* CFBaseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4221B2A623F3DBB100315BDF /* CFBaseListViewController.swift */; };
+		42256BDF23F7A59C00669CFF /* CFAppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42256BDE23F7A59C00669CFF /* CFAppUtils.swift */; };
+		42256BE123F7A6AC00669CFF /* CFValidateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42256BE023F7A6AC00669CFF /* CFValidateUtils.swift */; };
+		42256BE323F7B35300669CFF /* CFUIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42256BE223F7B35300669CFF /* CFUIButton+Extension.swift */; };
+		42256C1623F7DDFF00669CFF /* CFDictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42256C1523F7DDFF00669CFF /* CFDictionary+Extension.swift */; };
+		4249B52623F52FAC002E46FB /* CFDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4249B52523F52FAC002E46FB /* CFDate+Extension.swift */; };
+		4249B52823F53442002E46FB /* CFRequestBaseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4249B52723F53442002E46FB /* CFRequestBaseConfig.swift */; };
+		42E0921123F68D20004BF68F /* ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E0920E23F68D20004BF68F /* ParallaxHeader.swift */; };
+		42E0921223F68D20004BF68F /* ParallaxHeaderMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E0920F23F68D20004BF68F /* ParallaxHeaderMode.swift */; };
+		42E0921323F68D20004BF68F /* UIScrollView+ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E0921023F68D20004BF68F /* UIScrollView+ParallaxHeader.swift */; };
+		42E0921523F69598004BF68F /* CFData+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E0921423F69598004BF68F /* CFData+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		421535B823F13D3500AA4077 /* SwiftCrazyFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCrazyFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		421535BB23F13D3500AA4077 /* SwiftCrazyFrameWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftCrazyFrameWork.h; sourceTree = "<group>"; };
+		421535BC23F13D3500AA4077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		421535C523F13D7100AA4077 /* CFACMacros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFACMacros.swift; sourceTree = "<group>"; };
+		421535CE23F1475200AA4077 /* CFUIMacros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFUIMacros.swift; sourceTree = "<group>"; };
+		4218830523F25B2400D31A20 /* CFUIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CFUIColor+Extension.swift"; sourceTree = "<group>"; };
+		4218830723F25D3100D31A20 /* CFDateFormatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CFDateFormatter+Extension.swift"; sourceTree = "<group>"; };
+		4218830923F25DA300D31A20 /* CFString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CFString+Extension.swift"; sourceTree = "<group>"; };
+		4218830B23F264E600D31A20 /* CFArray+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CFArray+Extension.swift"; sourceTree = "<group>"; };
+		4218830D23F2792400D31A20 /* CFUIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CFUIImage+Extension.swift"; sourceTree = "<group>"; };
+		4218830F23F2816100D31A20 /* CFUIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CFUIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		4218831123F281D600D31A20 /* CFUIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CFUIView+Extension.swift"; sourceTree = "<group>"; };
+		4218831323F2852600D31A20 /* CFBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFBaseView.swift; sourceTree = "<group>"; };
+		4218831523F285DF00D31A20 /* CFBaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFBaseTableViewCell.swift; sourceTree = "<group>"; };
+		4218831723F288C900D31A20 /* CFBaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFBaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		4218831923F2891600D31A20 /* CFBaseCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFBaseCollectionReusableView.swift; sourceTree = "<group>"; };
+		4218831B23F2897F00D31A20 /* CFBaseTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFBaseTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
+		4218831D23F28B9A00D31A20 /* CFBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFBaseViewController.swift; sourceTree = "<group>"; };
+		4218831F23F2903B00D31A20 /* CFRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFRefresh.swift; sourceTree = "<group>"; };
+		4218832223F299DC00D31A20 /* CFTabBarItemContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFTabBarItemContentView.swift; sourceTree = "<group>"; };
+		4218832423F29A2100D31A20 /* CFTabBarItemBouncesContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFTabBarItemBouncesContentView.swift; sourceTree = "<group>"; };
+		4218832623F29C8300D31A20 /* CFTabBarItemIrregularityContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFTabBarItemIrregularityContentView.swift; sourceTree = "<group>"; };
+		4218832823F29F2D00D31A20 /* CFCollectionViewAlignedFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFCollectionViewAlignedFlowLayout.swift; sourceTree = "<group>"; };
+		4218832A23F29F9700D31A20 /* CFNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFNavigationBarView.swift; sourceTree = "<group>"; };
+		4218832C23F2A37F00D31A20 /* CFUIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CFUIViewController+Extension.swift"; sourceTree = "<group>"; };
+		4221B29023F3AB6400315BDF /* CFNoticeBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFNoticeBarView.swift; sourceTree = "<group>"; };
+		4221B29223F3AEDF00315BDF /* CFBaseNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFBaseNavViewController.swift; sourceTree = "<group>"; };
+		4221B29423F3B0C000315BDF /* CFBaseOriginalNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFBaseOriginalNavViewController.swift; sourceTree = "<group>"; };
+		4221B29623F3B2D300315BDF /* CFPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFPageViewController.swift; sourceTree = "<group>"; };
+		4221B29823F3B4ED00315BDF /* CFBaseTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFBaseTabBarViewController.swift; sourceTree = "<group>"; };
+		4221B29A23F3BCF200315BDF /* CFBaseWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFBaseWebViewController.swift; sourceTree = "<group>"; };
+		4221B29E23F3C37400315BDF /* CFBaseAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFBaseAppDelegate.swift; sourceTree = "<group>"; };
+		4221B2A023F3C5B800315BDF /* CFEntityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFEntityModel.swift; sourceTree = "<group>"; };
+		4221B2A223F3C6EF00315BDF /* CFViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFViewModel.swift; sourceTree = "<group>"; };
+		4221B2A423F3D2CD00315BDF /* CFRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFRequest.swift; sourceTree = "<group>"; };
+		4221B2A623F3DBB100315BDF /* CFBaseListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFBaseListViewController.swift; sourceTree = "<group>"; };
+		42256BDE23F7A59C00669CFF /* CFAppUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFAppUtils.swift; sourceTree = "<group>"; };
+		42256BE023F7A6AC00669CFF /* CFValidateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFValidateUtils.swift; sourceTree = "<group>"; };
+		42256BE223F7B35300669CFF /* CFUIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CFUIButton+Extension.swift"; sourceTree = "<group>"; };
+		42256C1523F7DDFF00669CFF /* CFDictionary+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CFDictionary+Extension.swift"; sourceTree = "<group>"; };
+		4249B52523F52FAC002E46FB /* CFDate+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CFDate+Extension.swift"; sourceTree = "<group>"; };
+		4249B52723F53442002E46FB /* CFRequestBaseConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFRequestBaseConfig.swift; sourceTree = "<group>"; };
+		42E0920E23F68D20004BF68F /* ParallaxHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxHeader.swift; sourceTree = "<group>"; };
+		42E0920F23F68D20004BF68F /* ParallaxHeaderMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxHeaderMode.swift; sourceTree = "<group>"; };
+		42E0921023F68D20004BF68F /* UIScrollView+ParallaxHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ParallaxHeader.swift"; sourceTree = "<group>"; };
+		42E0921423F69598004BF68F /* CFData+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CFData+Extension.swift"; sourceTree = "<group>"; };
+		67F1336833AFFA7ACC768310 /* Pods-SwiftCrazyFrameWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCrazyFrameWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCrazyFrameWork/Pods-SwiftCrazyFrameWork.release.xcconfig"; sourceTree = "<group>"; };
+		F503EC30378D91A29F6350C8 /* Pods-SwiftCrazyFrameWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCrazyFrameWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCrazyFrameWork/Pods-SwiftCrazyFrameWork.debug.xcconfig"; sourceTree = "<group>"; };
+		FDD544865E94AC80AF07FCE0 /* Pods_SwiftCrazyFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCrazyFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		421535B523F13D3500AA4077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		421535AE23F13D3500AA4077 = {
+			isa = PBXGroup;
+			children = (
+				421535BA23F13D3500AA4077 /* SwiftCrazyFrameWork */,
+				421535B923F13D3500AA4077 /* Products */,
+				5D50C81277AB8123621F7A15 /* Pods */,
+				68040D26FA9A76FB5F8992A8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		421535B923F13D3500AA4077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				421535B823F13D3500AA4077 /* SwiftCrazyFrameWork.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		421535BA23F13D3500AA4077 /* SwiftCrazyFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				421535C323F13D7100AA4077 /* CFAPP */,
+				421535C423F13D7100AA4077 /* CFMacros */,
+				421535CB23F13D7100AA4077 /* CFExtensions */,
+				421535C823F13D7100AA4077 /* CFHttp */,
+				421535C923F13D7100AA4077 /* CFModels */,
+				421535CA23F13D7100AA4077 /* CFProtocols */,
+				421535CC23F13D7100AA4077 /* CFUtils */,
+				421535C723F13D7100AA4077 /* CFVC */,
+				421535C623F13D7100AA4077 /* CFViews */,
+				421535BB23F13D3500AA4077 /* SwiftCrazyFrameWork.h */,
+				421535BC23F13D3500AA4077 /* Info.plist */,
+			);
+			path = SwiftCrazyFrameWork;
+			sourceTree = "<group>";
+		};
+		421535C323F13D7100AA4077 /* CFAPP */ = {
+			isa = PBXGroup;
+			children = (
+				4221B29E23F3C37400315BDF /* CFBaseAppDelegate.swift */,
+			);
+			path = CFAPP;
+			sourceTree = "<group>";
+		};
+		421535C423F13D7100AA4077 /* CFMacros */ = {
+			isa = PBXGroup;
+			children = (
+				421535C523F13D7100AA4077 /* CFACMacros.swift */,
+				421535CE23F1475200AA4077 /* CFUIMacros.swift */,
+			);
+			path = CFMacros;
+			sourceTree = "<group>";
+		};
+		421535C623F13D7100AA4077 /* CFViews */ = {
+			isa = PBXGroup;
+			children = (
+				42E0920D23F68D20004BF68F /* ParallaxHeader */,
+				4218832123F2988700D31A20 /* CFTabBarView */,
+				4218831323F2852600D31A20 /* CFBaseView.swift */,
+				4218831523F285DF00D31A20 /* CFBaseTableViewCell.swift */,
+				4218831723F288C900D31A20 /* CFBaseCollectionViewCell.swift */,
+				4218831923F2891600D31A20 /* CFBaseCollectionReusableView.swift */,
+				4218831B23F2897F00D31A20 /* CFBaseTableViewHeaderFooterView.swift */,
+				4218831F23F2903B00D31A20 /* CFRefresh.swift */,
+				4218832823F29F2D00D31A20 /* CFCollectionViewAlignedFlowLayout.swift */,
+				4218832A23F29F9700D31A20 /* CFNavigationBarView.swift */,
+				4221B29023F3AB6400315BDF /* CFNoticeBarView.swift */,
+			);
+			path = CFViews;
+			sourceTree = "<group>";
+		};
+		421535C723F13D7100AA4077 /* CFVC */ = {
+			isa = PBXGroup;
+			children = (
+				4218831D23F28B9A00D31A20 /* CFBaseViewController.swift */,
+				4221B29223F3AEDF00315BDF /* CFBaseNavViewController.swift */,
+				4221B29423F3B0C000315BDF /* CFBaseOriginalNavViewController.swift */,
+				4221B29623F3B2D300315BDF /* CFPageViewController.swift */,
+				4221B29823F3B4ED00315BDF /* CFBaseTabBarViewController.swift */,
+				4221B29A23F3BCF200315BDF /* CFBaseWebViewController.swift */,
+				4221B2A623F3DBB100315BDF /* CFBaseListViewController.swift */,
+			);
+			path = CFVC;
+			sourceTree = "<group>";
+		};
+		421535C823F13D7100AA4077 /* CFHttp */ = {
+			isa = PBXGroup;
+			children = (
+				4221B2A423F3D2CD00315BDF /* CFRequest.swift */,
+				4249B52723F53442002E46FB /* CFRequestBaseConfig.swift */,
+			);
+			path = CFHttp;
+			sourceTree = "<group>";
+		};
+		421535C923F13D7100AA4077 /* CFModels */ = {
+			isa = PBXGroup;
+			children = (
+				4221B2A023F3C5B800315BDF /* CFEntityModel.swift */,
+				4221B2A223F3C6EF00315BDF /* CFViewModel.swift */,
+			);
+			path = CFModels;
+			sourceTree = "<group>";
+		};
+		421535CA23F13D7100AA4077 /* CFProtocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CFProtocols;
+			sourceTree = "<group>";
+		};
+		421535CB23F13D7100AA4077 /* CFExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				4218830523F25B2400D31A20 /* CFUIColor+Extension.swift */,
+				4218830723F25D3100D31A20 /* CFDateFormatter+Extension.swift */,
+				4218830923F25DA300D31A20 /* CFString+Extension.swift */,
+				4218830B23F264E600D31A20 /* CFArray+Extension.swift */,
+				4218830D23F2792400D31A20 /* CFUIImage+Extension.swift */,
+				4218830F23F2816100D31A20 /* CFUIBarButtonItem+Extension.swift */,
+				4218831123F281D600D31A20 /* CFUIView+Extension.swift */,
+				4218832C23F2A37F00D31A20 /* CFUIViewController+Extension.swift */,
+				4249B52523F52FAC002E46FB /* CFDate+Extension.swift */,
+				42E0921423F69598004BF68F /* CFData+Extension.swift */,
+				42256BE223F7B35300669CFF /* CFUIButton+Extension.swift */,
+				42256C1523F7DDFF00669CFF /* CFDictionary+Extension.swift */,
+			);
+			path = CFExtensions;
+			sourceTree = "<group>";
+		};
+		421535CC23F13D7100AA4077 /* CFUtils */ = {
+			isa = PBXGroup;
+			children = (
+				42256BDE23F7A59C00669CFF /* CFAppUtils.swift */,
+				42256BE023F7A6AC00669CFF /* CFValidateUtils.swift */,
+			);
+			path = CFUtils;
+			sourceTree = "<group>";
+		};
+		4218832123F2988700D31A20 /* CFTabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				4218832223F299DC00D31A20 /* CFTabBarItemContentView.swift */,
+				4218832423F29A2100D31A20 /* CFTabBarItemBouncesContentView.swift */,
+				4218832623F29C8300D31A20 /* CFTabBarItemIrregularityContentView.swift */,
+			);
+			path = CFTabBarView;
+			sourceTree = "<group>";
+		};
+		42E0920D23F68D20004BF68F /* ParallaxHeader */ = {
+			isa = PBXGroup;
+			children = (
+				42E0920E23F68D20004BF68F /* ParallaxHeader.swift */,
+				42E0920F23F68D20004BF68F /* ParallaxHeaderMode.swift */,
+				42E0921023F68D20004BF68F /* UIScrollView+ParallaxHeader.swift */,
+			);
+			path = ParallaxHeader;
+			sourceTree = "<group>";
+		};
+		5D50C81277AB8123621F7A15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F503EC30378D91A29F6350C8 /* Pods-SwiftCrazyFrameWork.debug.xcconfig */,
+				67F1336833AFFA7ACC768310 /* Pods-SwiftCrazyFrameWork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		68040D26FA9A76FB5F8992A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDD544865E94AC80AF07FCE0 /* Pods_SwiftCrazyFrameWork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		421535B323F13D3500AA4077 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421535BD23F13D3500AA4077 /* SwiftCrazyFrameWork.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		421535B723F13D3500AA4077 /* SwiftCrazyFrameWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421535C023F13D3500AA4077 /* Build configuration list for PBXNativeTarget "SwiftCrazyFrameWork" */;
+			buildPhases = (
+				A1623B84227FB267095A9D56 /* [CP] Check Pods Manifest.lock */,
+				421535B323F13D3500AA4077 /* Headers */,
+				421535B423F13D3500AA4077 /* Sources */,
+				421535B523F13D3500AA4077 /* Frameworks */,
+				421535B623F13D3500AA4077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftCrazyFrameWork;
+			productName = SwiftCrazyFrameWork;
+			productReference = 421535B823F13D3500AA4077 /* SwiftCrazyFrameWork.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		421535AF23F13D3500AA4077 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = mxlai;
+				TargetAttributes = {
+					421535B723F13D3500AA4077 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 421535B223F13D3500AA4077 /* Build configuration list for PBXProject "SwiftCrazyFrameWork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 421535AE23F13D3500AA4077;
+			productRefGroup = 421535B923F13D3500AA4077 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				421535B723F13D3500AA4077 /* SwiftCrazyFrameWork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		421535B623F13D3500AA4077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1623B84227FB267095A9D56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftCrazyFrameWork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		421535B423F13D3500AA4077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4221B29523F3B0C000315BDF /* CFBaseOriginalNavViewController.swift in Sources */,
+				4221B29123F3AB6400315BDF /* CFNoticeBarView.swift in Sources */,
+				4221B29F23F3C37400315BDF /* CFBaseAppDelegate.swift in Sources */,
+				4221B2A123F3C5B800315BDF /* CFEntityModel.swift in Sources */,
+				4218832B23F29F9700D31A20 /* CFNavigationBarView.swift in Sources */,
+				4221B2A323F3C6EF00315BDF /* CFViewModel.swift in Sources */,
+				4218832D23F2A37F00D31A20 /* CFUIViewController+Extension.swift in Sources */,
+				4218831C23F2897F00D31A20 /* CFBaseTableViewHeaderFooterView.swift in Sources */,
+				4218832323F299DC00D31A20 /* CFTabBarItemContentView.swift in Sources */,
+				42E0921123F68D20004BF68F /* ParallaxHeader.swift in Sources */,
+				4221B29923F3B4ED00315BDF /* CFBaseTabBarViewController.swift in Sources */,
+				4218830E23F2792400D31A20 /* CFUIImage+Extension.swift in Sources */,
+				4218832023F2903B00D31A20 /* CFRefresh.swift in Sources */,
+				4218831423F2852600D31A20 /* CFBaseView.swift in Sources */,
+				42256BDF23F7A59C00669CFF /* CFAppUtils.swift in Sources */,
+				4221B2A723F3DBB100315BDF /* CFBaseListViewController.swift in Sources */,
+				421535CF23F1475200AA4077 /* CFUIMacros.swift in Sources */,
+				4221B29723F3B2D300315BDF /* CFPageViewController.swift in Sources */,
+				4218831623F285DF00D31A20 /* CFBaseTableViewCell.swift in Sources */,
+				4218830A23F25DA300D31A20 /* CFString+Extension.swift in Sources */,
+				4218830823F25D3100D31A20 /* CFDateFormatter+Extension.swift in Sources */,
+				421535CD23F13D7100AA4077 /* CFACMacros.swift in Sources */,
+				4218830C23F264E600D31A20 /* CFArray+Extension.swift in Sources */,
+				42256C1623F7DDFF00669CFF /* CFDictionary+Extension.swift in Sources */,
+				4218832523F29A2100D31A20 /* CFTabBarItemBouncesContentView.swift in Sources */,
+				42E0921323F68D20004BF68F /* UIScrollView+ParallaxHeader.swift in Sources */,
+				4218832923F29F2D00D31A20 /* CFCollectionViewAlignedFlowLayout.swift in Sources */,
+				42256BE323F7B35300669CFF /* CFUIButton+Extension.swift in Sources */,
+				4221B29323F3AEDF00315BDF /* CFBaseNavViewController.swift in Sources */,
+				42256BE123F7A6AC00669CFF /* CFValidateUtils.swift in Sources */,
+				4218831A23F2891600D31A20 /* CFBaseCollectionReusableView.swift in Sources */,
+				4221B29B23F3BCF200315BDF /* CFBaseWebViewController.swift in Sources */,
+				4249B52623F52FAC002E46FB /* CFDate+Extension.swift in Sources */,
+				4218831823F288C900D31A20 /* CFBaseCollectionViewCell.swift in Sources */,
+				4249B52823F53442002E46FB /* CFRequestBaseConfig.swift in Sources */,
+				42E0921523F69598004BF68F /* CFData+Extension.swift in Sources */,
+				4218831023F2816100D31A20 /* CFUIBarButtonItem+Extension.swift in Sources */,
+				4218831E23F28B9A00D31A20 /* CFBaseViewController.swift in Sources */,
+				4221B2A523F3D2CD00315BDF /* CFRequest.swift in Sources */,
+				4218832723F29C8300D31A20 /* CFTabBarItemIrregularityContentView.swift in Sources */,
+				4218830623F25B2400D31A20 /* CFUIColor+Extension.swift in Sources */,
+				4218831223F281D600D31A20 /* CFUIView+Extension.swift in Sources */,
+				42E0921223F68D20004BF68F /* ParallaxHeaderMode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		421535BE23F13D3500AA4077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		421535BF23F13D3500AA4077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		421535C123F13D3500AA4077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F503EC30378D91A29F6350C8 /* Pods-SwiftCrazyFrameWork.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5UL2M9C7X7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SwiftCrazyFrameWork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gezitech.SwiftCrazyFrameWork;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		421535C223F13D3500AA4077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67F1336833AFFA7ACC768310 /* Pods-SwiftCrazyFrameWork.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5UL2M9C7X7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SwiftCrazyFrameWork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gezitech.SwiftCrazyFrameWork;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		421535B223F13D3500AA4077 /* Build configuration list for PBXProject "SwiftCrazyFrameWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421535BE23F13D3500AA4077 /* Debug */,
+				421535BF23F13D3500AA4077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421535C023F13D3500AA4077 /* Build configuration list for PBXNativeTarget "SwiftCrazyFrameWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421535C123F13D3500AA4077 /* Debug */,
+				421535C223F13D3500AA4077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 421535AF23F13D3500AA4077 /* Project object */;
+}
