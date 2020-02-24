@@ -6,9 +6,15 @@
 //  Copyright © 2020 mxlai. All rights reserved.
 //
 import HandyJSON
+import RealmSwift
 
-public class CFEntityModel: HandyJSON {
-    var mPK: String?
+open class CFEntityModel:Object, HandyJSON {
+    @objc dynamic var pid = 0
+    
+    //设置主键
+    override open class func primaryKey() -> String? {
+        return "pid"
+    }
     required public init() {}
 }
 

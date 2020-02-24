@@ -45,6 +45,8 @@
 		42256BE123F7A6AC00669CFF /* CFValidateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42256BE023F7A6AC00669CFF /* CFValidateUtils.swift */; };
 		42256BE323F7B35300669CFF /* CFUIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42256BE223F7B35300669CFF /* CFUIButton+Extension.swift */; };
 		42256C1623F7DDFF00669CFF /* CFDictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42256C1523F7DDFF00669CFF /* CFDictionary+Extension.swift */; };
+		4248F29C2403A741009F366E /* CFCacheUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4248F29B2403A741009F366E /* CFCacheUtils.swift */; };
+		4248F29F2403C498009F366E /* CFRealmDBHelperUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4248F29E2403C498009F366E /* CFRealmDBHelperUtils.swift */; };
 		4249B52623F52FAC002E46FB /* CFDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4249B52523F52FAC002E46FB /* CFDate+Extension.swift */; };
 		4249B52823F53442002E46FB /* CFRequestBaseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4249B52723F53442002E46FB /* CFRequestBaseConfig.swift */; };
 		42E0921123F68D20004BF68F /* ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E0920E23F68D20004BF68F /* ParallaxHeader.swift */; };
@@ -94,6 +96,8 @@
 		42256BE023F7A6AC00669CFF /* CFValidateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFValidateUtils.swift; sourceTree = "<group>"; };
 		42256BE223F7B35300669CFF /* CFUIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CFUIButton+Extension.swift"; sourceTree = "<group>"; };
 		42256C1523F7DDFF00669CFF /* CFDictionary+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CFDictionary+Extension.swift"; sourceTree = "<group>"; };
+		4248F29B2403A741009F366E /* CFCacheUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFCacheUtils.swift; sourceTree = "<group>"; };
+		4248F29E2403C498009F366E /* CFRealmDBHelperUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFRealmDBHelperUtils.swift; sourceTree = "<group>"; };
 		4249B52523F52FAC002E46FB /* CFDate+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CFDate+Extension.swift"; sourceTree = "<group>"; };
 		4249B52723F53442002E46FB /* CFRequestBaseConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFRequestBaseConfig.swift; sourceTree = "<group>"; };
 		42E0920E23F68D20004BF68F /* ParallaxHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxHeader.swift; sourceTree = "<group>"; };
@@ -250,6 +254,8 @@
 			children = (
 				42256BDE23F7A59C00669CFF /* CFAppUtils.swift */,
 				42256BE023F7A6AC00669CFF /* CFValidateUtils.swift */,
+				4248F29B2403A741009F366E /* CFCacheUtils.swift */,
+				4248F29E2403C498009F366E /* CFRealmDBHelperUtils.swift */,
 			);
 			path = CFUtils;
 			sourceTree = "<group>";
@@ -403,6 +409,7 @@
 				4218832323F299DC00D31A20 /* CFTabBarItemContentView.swift in Sources */,
 				42E0921123F68D20004BF68F /* ParallaxHeader.swift in Sources */,
 				4221B29923F3B4ED00315BDF /* CFBaseTabBarViewController.swift in Sources */,
+				4248F29C2403A741009F366E /* CFCacheUtils.swift in Sources */,
 				4218830E23F2792400D31A20 /* CFUIImage+Extension.swift in Sources */,
 				4218832023F2903B00D31A20 /* CFRefresh.swift in Sources */,
 				4218831423F2852600D31A20 /* CFBaseView.swift in Sources */,
@@ -422,6 +429,7 @@
 				42256BE323F7B35300669CFF /* CFUIButton+Extension.swift in Sources */,
 				4221B29323F3AEDF00315BDF /* CFBaseNavViewController.swift in Sources */,
 				42256BE123F7A6AC00669CFF /* CFValidateUtils.swift in Sources */,
+				4248F29F2403C498009F366E /* CFRealmDBHelperUtils.swift in Sources */,
 				4218831A23F2891600D31A20 /* CFBaseCollectionReusableView.swift in Sources */,
 				4221B29B23F3BCF200315BDF /* CFBaseWebViewController.swift in Sources */,
 				4249B52623F52FAC002E46FB /* CFDate+Extension.swift in Sources */,
