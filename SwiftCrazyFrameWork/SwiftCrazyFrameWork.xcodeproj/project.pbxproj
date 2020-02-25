@@ -53,6 +53,7 @@
 		42E0921223F68D20004BF68F /* ParallaxHeaderMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E0920F23F68D20004BF68F /* ParallaxHeaderMode.swift */; };
 		42E0921323F68D20004BF68F /* UIScrollView+ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E0921023F68D20004BF68F /* UIScrollView+ParallaxHeader.swift */; };
 		42E0921523F69598004BF68F /* CFData+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E0921423F69598004BF68F /* CFData+Extension.swift */; };
+		C1CB3D9B1F34E5816C3C3C1C /* Pods_SwiftCrazyFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD544865E94AC80AF07FCE0 /* Pods_SwiftCrazyFrameWork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		4218832823F29F2D00D31A20 /* CFCollectionViewAlignedFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFCollectionViewAlignedFlowLayout.swift; sourceTree = "<group>"; };
 		4218832A23F29F9700D31A20 /* CFNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFNavigationBarView.swift; sourceTree = "<group>"; };
 		4218832C23F2A37F00D31A20 /* CFUIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CFUIViewController+Extension.swift"; sourceTree = "<group>"; };
+		421FF45A240502BD00CEC685 /* Pods_SwiftCrazyFrameWorkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_SwiftCrazyFrameWorkDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4221B29023F3AB6400315BDF /* CFNoticeBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFNoticeBarView.swift; sourceTree = "<group>"; };
 		4221B29223F3AEDF00315BDF /* CFBaseNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFBaseNavViewController.swift; sourceTree = "<group>"; };
 		4221B29423F3B0C000315BDF /* CFBaseOriginalNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFBaseOriginalNavViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1CB3D9B1F34E5816C3C3C1C /* Pods_SwiftCrazyFrameWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +295,7 @@
 		68040D26FA9A76FB5F8992A8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				421FF45A240502BD00CEC685 /* Pods_SwiftCrazyFrameWorkDemo.framework */,
 				FDD544865E94AC80AF07FCE0 /* Pods_SwiftCrazyFrameWork.framework */,
 			);
 			name = Frameworks;

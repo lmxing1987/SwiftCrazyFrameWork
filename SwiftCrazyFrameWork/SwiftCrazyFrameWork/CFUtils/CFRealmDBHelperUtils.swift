@@ -9,9 +9,9 @@
 import Foundation
 import RealmSwift
 
-class CFRealmDBHelperUtils: NSObject{
-    static var schemaVersion:UInt64 = 0
-    static func realmConfig(){
+open class CFRealmDBHelperUtils: NSObject{
+    static public var schemaVersion:UInt64 = 0
+    static public func realmConfig(){
         let config = Realm.Configuration(
             schemaVersion: self.schemaVersion,
              migrationBlock: { migration, oldSchemaVersion in
@@ -23,7 +23,7 @@ class CFRealmDBHelperUtils: NSObject{
     
     /// 新增存储model
     /// - Parameter model: Object model
-    class func addModel <T: Object> (model: T){
+    class public func addModel <T: Object> (model: T){
         do {
             try realm.write {
                 realm.add(model)
@@ -35,7 +35,7 @@ class CFRealmDBHelperUtils: NSObject{
     /// - Parameters:
     ///   - model: 模型
     ///   - filter: 条件
-    class func findModel <T: Object> (model: T.Type, filter: String? = nil) -> [T]{
+    class public func findModel <T: Object> (model: T.Type, filter: String? = nil) -> [T]{
         
         var results : Results<T>
         
@@ -56,7 +56,7 @@ class CFRealmDBHelperUtils: NSObject{
     /// - Parameters:
     ///   - model: 模型
     ///   - filter: 筛选条件
-    class func findOneModel <T: Object> (model: T.Type, filter: String? = nil) -> T? {
+    class public func findOneModel <T: Object> (model: T.Type, filter: String? = nil) -> T? {
         let modelArray = self .findModel(model: model, filter: filter)
         guard modelArray.count > 0 else { return nil }
         return modelArray[0]
@@ -64,7 +64,7 @@ class CFRealmDBHelperUtils: NSObject{
     
     /// 修改模型
     /// - Parameter model: 被修改模型
-    class func updateModel <T: Object> (model: T){
+    class public func updateModel <T: Object> (model: T){
         do {
             try realm.write {
                 realm.add(model, update: Realm.UpdatePolicy.modified)
@@ -75,7 +75,7 @@ class CFRealmDBHelperUtils: NSObject{
     
     /// 按模型删除
     /// - Parameter model: 需删除的模型
-    class func deleteModel <T: Object> (model: T){
+    class public func deleteModel <T: Object> (model: T){
         do {
             try realm.write {
                 realm.delete(model)

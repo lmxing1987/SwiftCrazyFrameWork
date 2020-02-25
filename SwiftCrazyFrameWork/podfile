@@ -23,4 +23,5 @@ pod 'MBProgressHUD', '~> 1.0'
 pod 'DZNEmptyDataSet', '~> 1.8.1'
 pod 'FDFullscreenPopGesture', '~> 1.1'
 pod 'HMSegmentedControl', '~> 1.5.5'
+pod 'YYCache', '~> 1.0.4'
 end

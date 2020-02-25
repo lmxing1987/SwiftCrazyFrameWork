@@ -32,6 +32,7 @@ PODS:
     - RxSwift (>= 4.4.2, ~> 4.4)
   - RxSwift (4.5.0)
   - SnapKit (4.0.1)
+  - YYCache (1.0.4)
 
 DEPENDENCIES:
   - DZNEmptyDataSet (~> 1.8.1)
@@ -50,6 +51,7 @@ DEPENDENCIES:
   - RxCocoa
   - RxSwift
   - SnapKit (~> 4.0.0)
+  - YYCache (~> 1.0.4)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -71,6 +73,7 @@ SPEC REPOS:
     - RxCocoa
     - RxSwift
     - SnapKit
+    - YYCache
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
@@ -91,7 +94,8 @@ SPEC CHECKSUMS:
   RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
   SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: 838c6f50f95dc47a7f1338ecd0c7898241bace8d
+PODFILE CHECKSUM: 05109e05667112c2052eb11e1d12e43fabc7c478
 
 COCOAPODS: 1.8.4
