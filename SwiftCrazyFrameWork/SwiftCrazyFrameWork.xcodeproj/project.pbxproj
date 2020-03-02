@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42128CFB240CBC7E00542474 /* CFIOUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42128CFA240CBC7E00542474 /* CFIOUtils.swift */; };
 		421535BD23F13D3500AA4077 /* SwiftCrazyFrameWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 421535BB23F13D3500AA4077 /* SwiftCrazyFrameWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		421535CD23F13D7100AA4077 /* CFACMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421535C523F13D7100AA4077 /* CFACMacros.swift */; };
 		421535CF23F1475200AA4077 /* CFUIMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421535CE23F1475200AA4077 /* CFUIMacros.swift */; };
@@ -53,10 +54,10 @@
 		42E0921223F68D20004BF68F /* ParallaxHeaderMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E0920F23F68D20004BF68F /* ParallaxHeaderMode.swift */; };
 		42E0921323F68D20004BF68F /* UIScrollView+ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E0921023F68D20004BF68F /* UIScrollView+ParallaxHeader.swift */; };
 		42E0921523F69598004BF68F /* CFData+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E0921423F69598004BF68F /* CFData+Extension.swift */; };
-		C1CB3D9B1F34E5816C3C3C1C /* Pods_SwiftCrazyFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD544865E94AC80AF07FCE0 /* Pods_SwiftCrazyFrameWork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42128CFA240CBC7E00542474 /* CFIOUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFIOUtils.swift; sourceTree = "<group>"; };
 		421535B823F13D3500AA4077 /* SwiftCrazyFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCrazyFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		421535BB23F13D3500AA4077 /* SwiftCrazyFrameWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftCrazyFrameWork.h; sourceTree = "<group>"; };
 		421535BC23F13D3500AA4077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -116,7 +117,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1CB3D9B1F34E5816C3C3C1C /* Pods_SwiftCrazyFrameWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +259,7 @@
 				42256BE023F7A6AC00669CFF /* CFValidateUtils.swift */,
 				4248F29B2403A741009F366E /* CFCacheUtils.swift */,
 				4248F29E2403C498009F366E /* CFRealmDBHelperUtils.swift */,
+				42128CFA240CBC7E00542474 /* CFIOUtils.swift */,
 			);
 			path = CFUtils;
 			sourceTree = "<group>";
@@ -434,6 +435,7 @@
 				4221B29323F3AEDF00315BDF /* CFBaseNavViewController.swift in Sources */,
 				42256BE123F7A6AC00669CFF /* CFValidateUtils.swift in Sources */,
 				4248F29F2403C498009F366E /* CFRealmDBHelperUtils.swift in Sources */,
+				42128CFB240CBC7E00542474 /* CFIOUtils.swift in Sources */,
 				4218831A23F2891600D31A20 /* CFBaseCollectionReusableView.swift in Sources */,
 				4221B29B23F3BCF200315BDF /* CFBaseWebViewController.swift in Sources */,
 				4249B52623F52FAC002E46FB /* CFDate+Extension.swift in Sources */,

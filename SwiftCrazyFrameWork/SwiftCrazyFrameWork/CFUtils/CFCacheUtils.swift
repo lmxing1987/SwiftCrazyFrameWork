@@ -116,9 +116,6 @@ open class CFCacheUtils {
             oldObj=self.cf_objectForKey(key, .CFCacheDisk);
         }
         if oldObj != nil {
-            
-            
-            
             if (oldObj.self is NSDictionary) {
                 let dataDic = oldObj as! Dictionary<String, Any>
                 let expireTime = dataDic .cf_getIntValueForKey("expireTime", 0)

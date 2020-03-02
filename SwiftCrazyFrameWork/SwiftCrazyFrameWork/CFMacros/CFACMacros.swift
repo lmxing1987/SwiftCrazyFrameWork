@@ -11,8 +11,8 @@ import UIKit
 // 沙盒路径
 public let kPATH_OF_APP_HOME = NSHomeDirectory()
 public let kPATH_OF_TEMP = NSTemporaryDirectory()
-public let kPATH_OF_DOCUMENT = FileManager.SearchPathDirectory.documentDirectory
-public let kPATH_OF_CACHES = FileManager.SearchPathDirectory.cachesDirectory
+public let kPATH_OF_DOCUMENT = kPATH_OF_APP_HOME + "/Documents"
+public let kPATH_OF_CACHES = kPATH_OF_APP_HOME + "/Library/Caches"
 
 // 设备相关
 public let kUniqueString = ProcessInfo.processInfo.globallyUniqueString
